@@ -1,0 +1,14 @@
+<suite name = "Suite" parrallel = "test">
+<test name = "chromeTest">
+<parameter name ="browser" value = "chrome"/>
+<Classes>
+<class name = "TestNGDmo.ParallelBrowser" />
+</Classes>
+</test>
+<test name = "FirefoxTest">
+<parameter name ="browser" value = "FirefoxTest"/>
+<Classes>
+<class name = "TestNGDmo.ParallelBrowser" />
+</Classes>
+</test>
+</suite>
